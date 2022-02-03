@@ -1,24 +1,25 @@
 [core]
 	autocrlf = input
-	editor = atom -w
+	editor = code -w
 	excludesfile = ~/.gitignore
 [alias]
 	branch-name = rev-parse --abbrev-ref HEAD
 	pub = !git push -u origin $(git branch-name)
 	password = !reset-github-password
 	redo = commit --amend --no-edit
+	gcm = git commit -m
 [push]
 	default = simple
 [user]
-	email = public@johndbritton.com
-	name = John Britton
-	signingkey = E915C4F25FD858BB
+	email = chelsea.kent@gmail.com
+	name = Chelsea Kent
+	signingkey = 64B13759BF9880F0
 [color]
 	ui = true
 [credential]
 	helper = osxkeychain
 [github]
-	user = johndbritton
+	user = clkent
 [commit]
 	gpgsign = true
 [pull]

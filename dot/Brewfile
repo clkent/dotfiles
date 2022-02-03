@@ -84,7 +84,6 @@ cask 'airflow'
 cask 'arq'
 cask 'atext'
 cask 'athens'
-cask 'atom'
 cask 'bartender'
 cask 'base'
 cask 'beardedspice'
@@ -94,9 +93,7 @@ cask 'coscreen'
 cask 'discord'
 cask 'disk-arbitrator'
 cask 'docker'
-cask 'dropbox'
 cask 'expressvpn'
-cask 'fantastical'
 cask 'firefox'
 cask 'flux'
 cask 'gitify'
@@ -115,7 +112,6 @@ cask 'notion'
 cask 'semulov'
 cask 'sequel-pro'
 cask 'shifty'
-cask 'sketch'
 cask 'slack'
 cask 'slate'
 cask 'sonic-pi'
@@ -129,17 +125,5 @@ cask 'webtorrent'
 cask 'zoom'
 
 tap 'homebrew/cask-versions'
-cask 'atom-nightly'
 
-mas '1Password 7', id: 1333542190
-mas 'Affinity Designer', id: 824171161
-mas 'Affinity Photo', id: 824183456
-mas 'Amphetamine', id: 937984704
-mas 'Bear', id: 1091189122
-mas 'Keynote', id: 409183694
-mas 'Kindle', id: 405399194
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Speedtest', id: 1153157709
-mas 'Xcode', id: 497799835
-mas 'Yoink', id: 457622435
+mas 'Xcode'
