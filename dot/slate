@@ -11,7 +11,7 @@ config layoutFocusOnActivate true
 
 alias slate_keys cmd;ctrl;alt
 
-layout codeLayout 'Atom' push left bar-resize:screenSizeX/2
+layout codeLayout 'Code' push left bar-resize:screenSizeX/2
 layout codeLayout 'Terminal' push right bar-resize:screenSizeX/2
 
 bind 1:`,${slate_keys} layout codeLayout
@@ -23,17 +23,11 @@ bind 3:${slate_keys} throw 2
 bind 4:${slate_keys} throw 3
 
 # global application hotkeys
-bind b:${slate_keys} shell path:~/ '/usr/bin/open -a Safari'
-bind c:${slate_keys} shell path:~/ '/usr/bin/open -a Fantastical'
-bind e:${slate_keys} shell path:~/ '/usr/bin/open -a Atom Nightly'
+bind b:${slate_keys} shell path:~/ '/usr/bin/open -a Chrome'
 bind f:${slate_keys} shell path:~/ '/usr/bin/open .'
 bind t:${slate_keys} shell path:~/ '/usr/bin/open -a Terminal'
 bind s:${slate_keys} shell path:~/ '/usr/bin/open -a Slack'
 bind x:${slate_keys} shell path:~/ '/usr/bin/open -a Spotify'
-
-# airpods hotkeys
-bind pageUp:${slate_keys} shell path:~/ '~/bin/bluetooth connect airpods'
-bind pageDown:${slate_keys} shell path:~/ '~/bin/bluetooth disconnect airpods'
 
 # relaunch slate
 bind esc:${slate_keys} relaunch

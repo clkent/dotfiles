@@ -7,7 +7,8 @@
 	pub = !git push -u origin $(git branch-name)
 	password = !reset-github-password
 	redo = commit --amend --no-edit
-	gcm = git commit -m
+	cm = commit -m
+	a = add
 [push]
 	default = simple
 [user]

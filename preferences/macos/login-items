@@ -3,16 +3,12 @@
 declare -a apps=(
   "Amphetamine"
   "Bartender 4"
-  "Bear"
-  "BeardedSpice"
-  "Choosy"
   "ExpressVPN"
   "Gitify"
   "Itsycal"
   "Shifty"
   "Slate"
   "teleport"
-  "Yoink"
 )
 
 for app in $apps; do

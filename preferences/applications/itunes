@@ -2,7 +2,6 @@
 set -e
 
 # Disable keyboard media keys
-# Instead of disabling media keys, I'm now using BeardedSpice to direct them to Spotify
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 echo 'Configured iTunes preferences'

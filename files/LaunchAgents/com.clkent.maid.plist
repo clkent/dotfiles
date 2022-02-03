@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.johndbritton.maid</string>
+    <string>com.clkent.maid</string>
     <key>ProgramArguments</key>
     <array>
         <string>sh</string>
